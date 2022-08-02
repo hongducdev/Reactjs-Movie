@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import { Link } from "react-router-dom";
 import Button from "../button/Button";
@@ -29,7 +28,5 @@ const MovieCard = (props) => {
         </Link>
     );
 };
-
-MovieCard.propTypes = {};
 
 export default MovieCard;
